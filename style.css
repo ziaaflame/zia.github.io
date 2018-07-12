@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+
+
+h1, h2, h3, h4, h5, h6 .main_menu {
+	font-family: 'Quicksand', sans-serif;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.hero-area {background-image: url(assets/img/hero-bg.jpg);}
+.hero-area:after {background-image: url(assets/img/hero-shade.png);}
+
+
+header {
+    background: none repeat scroll 0 0 #1D2F3D;
+}
+
+
+.main_manu ul {
+    font-weight: 500;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.main_manu li {
+    display: inline-block;
+    position: relative;
+}
+
+.main_manu li a {
+    display: block;
+    padding: 15px 10px;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.logo {
+    margin: 9px 0
+}
+
+
+.hero-area-tablecell {
+    position: relative;
+    vertical-align: middle;
+    z-index: 1;
+    display: table-cell;
+}
+.hero-area-tablecell:after {
+    background: none repeat scroll 0 0 #0F355C;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.hero-area {
+    color: #FFFFFF;
+    display: table;
+    font-size: 20px;
+    height: 770px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.hero-area h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.hero-area:after {
+    background-size: 100% 100%;
+    bottom: 0;
+    content: "";
+    height: 100px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+
+a.boxed-btn {
+    background: none repeat scroll 0 0 #6FED8D;
+    border-radius: 5px;
+    color: #0F355C;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 20px;
+    padding: 10px 30px;
+}
+
+
+header .site-header {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+
+header .site-header:after {
+    background: none repeat scroll 0 0 #000000;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    content: "";
+    opacity: 0.4;
+    z-index: -1;
+}
