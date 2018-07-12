@@ -1,0 +1,119 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+section.section-padding {
+    padding: 80px 0;
+}
+body {
+    color: #9B9B9B;
+}
+.section-title {
+    margin-bottom: 50px;
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #333333;
+}
+.section-title h2 span {
+    color: #26A65B;
+}
+.single-pricing-box {
+    border: 1px solid #DDDDDD;
+    padding: 20px;
+    text-align: center;
+    transition: .2s;
+}
+.single-pricing-box:hover{
+    border-color: #26A65B;
+    box-shadow: 0 0 50px #f1f1f1;
+}
+
+.single-pricing-box h3 {
+    text-transform: uppercase;
+}
+
+.single-pricing-box:hover .pricing-icon{
+    color: #26A65B;
+}
+
+.single-pricing-box:hover .pricing-icon img{
+    opacity: .7;
+}
+
+.pricing-icon {
+    font-size: 60px;
+    margin-bottom: 20px;
+    transition: .3s;
+}
+.pricing-icon img {
+    max-width: 90px;
+}
+.pricing-list ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    line-height: 27px;
+    padding-left: 16px;
+}
+
+.pricing-list ul li:before{font-family: fontAwesome;content: "\f00c"; color: #26A65B; padding-right: 10px;}
+.pricing-list ul li{
+    transition: 0.2s;
+}
+.pricing-list ul li:hover{
+    padding-left: 5px;
+}
+
+.pricing-list ul li.off:before{content: "\f00d"; color: red}
+
+.pricing-list {
+    margin-bottom: 30px;
+    text-align: left;
+}
+.pricing-count h3 {
+    text-transform: capitalize;
+}
+.single-pricing-box h3 .pricing-count {
+    text-transform: none;
+}
+a.bordered-btn {
+    border: 1px solid #26A65B;
+    border-radius: 50px;
+    color: #333333;
+    padding: 10px 30px;
+    transition: .3s
+}
+a.bordered-btn:hover {
+    background: #26A65B;
+    color: #fff;
+}
